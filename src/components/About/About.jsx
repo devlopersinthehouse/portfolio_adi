@@ -44,20 +44,20 @@ const Download = () => (
 const highlights = [
     {
         icon: <Target />,
-        title: 'Problem Solver',
-        description: '990+ LeetCode problems solved',
+        title: 'Bug Solver',
+        description: '550+ Bugs Solved',
         color: 'primary'
     },
     {
         icon: <Shield />,
         title: 'Security Expert',
-        description: 'Pen testing & vulnerability research',
+        description: 'Pen testing & vulnerability founder',
         color: 'accent'
     },
     {
         icon: <Code />,
         title: 'Software Developer',
-        description: 'Python, C++, JavaScript, Qt',
+        description: 'Python, Flutter, Javascript, React, Node.js',
         color: 'warning'
     }
 ]
@@ -100,11 +100,12 @@ function About() {
                                 <br /><br />
                                 <span className={styles.outputSection}>
                                     <span className={styles.outputKey}>Name:</span> Aditya Mishra<br />
-                                    <span className={styles.outputKey}>Role:</span> Security Researcher<br />
-                                    <span className={styles.outputKey}>Education:</span> B.E. CSE (Cyber Security)<br />
-                                    <span className={styles.outputKey}>College:</span> Chennai Institute of Technology<br />
-                                    <span className={styles.outputKey}>CGPA:</span> 9.05 / 10<br />
-                                    <span className={styles.outputKey}>Batch:</span> 2022 - 2026<br />
+                                    <span className={styles.outputKey}>Role:</span> Founder @ DEVELOPERS | Aspiring Security Researcher<br />
+                                    <span className={styles.outputKey}>Organization:</span> DEVELOPERS - Building Websites, Apps & Software<br />
+                                    <span className={styles.outputKey}>Education:</span> Senior Secondary (Class 12 - Pursuing)<br />
+                                    <span className={styles.outputKey}>School:</span> Nagaji Saraswati Vidya Mandir Sr. Sec. School<br />
+                                    <span className={styles.outputKey}>Class 10:</span> 9.49 CGPA (2024–2025)<br />
+                                    <span className={styles.outputKey}>Class 12:</span> Appearing (2026–2027)<br />
                                 </span>
                                 <br />
                                 <span className="terminal-line">
@@ -128,7 +129,7 @@ function About() {
                             transition={{ delay: 0.6 }}
                         >
                             <span className={styles.expNumber}>3+</span>
-                            <span className={styles.expLabel}>Industry<br />Internships</span>
+                            <span className={styles.expLabel}>Big Projects<br /> done</span>
                         </motion.div>
                     </motion.div>
 
@@ -156,7 +157,7 @@ function About() {
                             transition={{ delay: 0.5 }}
                         >
                             <p className={styles.bio}>
-                                I'm Aditya Mishra — a developer with a security-first mindset. Pursuing B.E. CSE (Cyber Security) at Chennai Institute of Technology with 9.05 CGPA. Completed 5 industry internships at Palo Alto Networks, RecruitNxt Technologies, THECYBERHOST, Learnflu & AirosSpace R&D — building expertise across mobile pentesting, cloud security & threat intelligence.
+                                I'm Aditya Mishra — a developer with a security-first mindset. An aspiring Security Researcher and Founder of DEVELOPERS, a tech group focused on building websites, web applications, mobile apps, and software solutions. I have a strong interest in cybersecurity, ethical hacking, and continuously improving my technical skills while pursuing my senior secondary education.
                             </p>
                         </motion.div>
 
@@ -184,7 +185,7 @@ function About() {
 
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '8px' }}>
                             <motion.a
-                                href="https://drive.google.com/file/d/1lXWJv1ttyhQlEEeKlDJYr1b7A33tFwye/view"
+                                href="https://drive.google.com/file/d/1GIY6MTgawOCqMBafotuW77IKUXwbQwoI/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"

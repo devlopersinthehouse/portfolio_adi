@@ -195,9 +195,7 @@ function Contact() {
                         </div>
 
                         <p className={styles.description}>
-                            I'm currently available for internships, freelance work, and full-time opportunities.
-                            Whether you need a security assessment, want to collaborate on a project,
-                            or just want to connect - feel free to reach out!
+                            I am currently open to internships, freelance opportunities, and full-time roles. Whether you need a security assessment, want to collaborate on a project, or simply wish to connect, feel free to reach out.
                         </p>
 
                         <div className={styles.contactDetails}>

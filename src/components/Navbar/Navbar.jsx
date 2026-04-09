@@ -54,8 +54,8 @@ function Navbar() {
                     aria-label="Aditya Mishra Home"
                 >
                     <span className={styles.logoSymbol} aria-hidden="true">&lt;</span>
-                    <span className={styles.logoText}>Karthi</span>
-                    <span className={styles.logoAccent} aria-hidden="true">...R</span>
+                    <span className={styles.logoText}>Aditya</span>
+                    <span className={styles.logoAccent} aria-hidden="true">Mishra</span>
                     <span className={styles.logoSymbol} aria-hidden="true">/&gt;</span>
                 </motion.a>
 

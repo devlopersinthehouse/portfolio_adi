@@ -400,7 +400,6 @@ function Hero() {
                     >
                         <h1 className={styles.name}>
                             <span className={styles.firstName}>{firstName}</span>
-                            <span className={styles.lastName}>{lastName}</span>
                         </h1>
                     </motion.div>
 
@@ -475,17 +474,17 @@ function Hero() {
                         transition={{ delay: 1.2 }}
                     >
                         <div className={styles.stat}>
-                            <span className={styles.statNumber}>9.05</span>
-                            <span className={styles.statLabel}>CGPA</span>
+                            <span className={styles.statNumber}>9.49</span>
+                            <span className={styles.statLabel}>CGPA in CLASS 10th</span>
                         </div>
                         <div className={styles.statDivider}></div>
                         <div className={styles.stat}>
-                            <span className={styles.statNumber}>990+</span>
-                            <span className={styles.statLabel}>LeetCode</span>
+                            <span className={styles.statNumber}>550+</span>
+                            <span className={styles.statLabel}>Bugs</span>
                         </div>
                         <div className={styles.statDivider}></div>
                         <div className={styles.stat}>
-                            <span className={styles.statNumber}>{githubStats.repos || '17'}+</span>
+                            <span className={styles.statNumber}>{githubStats.repos || '12'}+</span>
                             <span className={styles.statLabel}>GitHub Repos</span>
                         </div>
                     </motion.div>
